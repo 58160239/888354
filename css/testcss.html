@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+
+		table, th, td {
+    		border: 1px solid black;
+		}
+
+		#txt{
+			text-align: center;
+			color: red;
+			text-decoration: line-through;
+		}
+
+		div {
+
+		    background-color: lightgrey;
+		    width: 300px;
+		    border: 25px solid green;
+		    padding: 50px;
+		    margin: 25px;
+		    border-radius: 25px;
+			}
+
+		#p{
+			/*margin-top: 100px;
+		    margin-bottom: 100px;*/
+		    margin-right: 150px;
+		    margin-left: 150px;
+		}
+
+		p.dotted {border-style: dotted;}
+		p.dashed {border-style: dashed;}
+		p.solid {border-style: solid;}
+		p.double {border-style: double;}
+		p.groove {border-style: groove;}
+		p.ridge {border-style: ridge;}
+		p.inset {border-style: inset;}
+		p.outset {border-style: outset;}
+		p.none {border-style: none;}
+		p.hidden {border-style: hidden;}
+		p.mix {border-style: dotted dashed solid double;}
+
+		body{
+			/*background-color: lightpink;*/
+			background-image: url("bg-1.jpg");
+			/*background-size: 250px;*/
+			background-repeat: round; 
+			/* ภาพเต็มจอ ไม่ซ้อน*/
+		}
+	</style>
+</head>
+<body>
+	<h1 align="center"> Hello World</h1>
+
+	<p class="dotted" id="p">A dotted border.</p>
+	<p class="dashed" id="p">A dashed border.</p>
+	<p class="solid" id="p">A solid border.</p>
+	<p class="double" id="p">A double border.</p>
+	<p class="groove" id="p">A groove border.</p>
+	<p class="ridge" id="p">A ridge border.</p>
+	<p class="inset" id="p">An inset border.</p>
+	<p class="outset" id="p">An outset border.</p>
+	<p class="none" id="p">No border.</p>
+	<p class="hidden" id="p">A hidden border.</p>
+	<p class="mix" id="p">A mixed border.</p>
+
+	<center>
+		<div id="txt">
+			This text is the actual content of the box. We have added a 25px padding, 25px margin and a 25px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</div>
+	</center>
+
+	<hr>
+
+	<h2 align="center">Add a border to a table:</h2>
+
+		<table align="center">
+		  <tr>
+		    <th>Firstname</th>
+		    <th>Lastname</th>
+		  </tr>
+		  <tr>
+		    <td>Peter</td>
+		    <td>Griffin</td>
+		  </tr>
+		  <tr>
+		    <td>Lois</td>
+		    <td>Griffin</td>
+		  </tr>
+		</table>
+
+
+</body>
+</html>
